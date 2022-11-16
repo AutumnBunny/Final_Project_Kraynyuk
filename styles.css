@@ -1,0 +1,390 @@
+.wrapper {
+margin: auto;
+height: 3000px;
+
+background-color: rgb(232, 232, 240);
+
+}
+
+/*HEADER*/
+
+.header {
+width: 1500x;
+height: 750px;
+margin: o o;
+background-image: url(img/140093-buton-prut-belye-tsvetok-rastenie-1920x1080.jpg);
+color: aliceblue;
+
+position: relative;
+}
+
+.maneki-neko {
+
+    width: 75px;
+    height: 75px;
+    background-image: url(img/icons8-maneki-neko-64.png);
+    background-repeat: no-repeat;
+
+    margin-top: 25px;
+    margin-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header-menu{
+display: flex;
+justify-content: flex-end;
+
+}
+
+.header-menu a {
+margin-right: 20px;
+margin-top: -80px;
+padding: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-decoration: none;
+color: rgb(240, 244, 247);
+ }
+
+.header-menu a:hover {
+    color: grey;
+ }
+
+ .online-course {
+    width: 720px;
+    height: 160px;
+    margin-top: 170px;
+    margin-left: 45px;
+    color: aliceblue;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .bukva-i{
+    color:rgb(45, 5, 5)
+ }
+
+ .online-course2 {   
+    margin-left: 175px;
+ }
+
+ .trial-lesson-button {
+    position: absolute;
+    left: 100px;
+    top: 500px;
+
+    padding: 10px 15px;
+    color: #e7ceb4;
+    font-size: 18px;
+    text-decoration: none;
+
+    font-weight: bold;
+    background-color: #97243f;
+    border-radius: 40%;
+    
+    }
+
+    a.trial-lesson-button:hover {
+
+        color: aliceblue;
+    }
+
+
+.you-will-learn {
+width: 550px;
+height: 200px;
+margin-top: 135px;
+margin-left: 940px;
+
+font-size: 22px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+display: flex;
+flex-direction: column;
+}
+
+ul{
+    list-style-type:circle;
+}
+
+li{
+    margin-bottom: 10px;
+}
+.you-will-learn li::before {
+    list-style-type:armenian;
+}
+
+
+
+/*HEADER*/
+
+
+/*CONTENT*/
+
+.content-container {
+
+    display: flex;
+
+}
+
+.central-part{
+    width: 1040px;
+    
+   /* margin-left: 5px;
+    margin-right: 5px;*/
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
+.lessons, .teachers, .trial-lesson {
+width: 1040px;
+height: 800px;
+
+}
+
+.lessons, .trial-lesson{
+    background-color: #fcfbf6;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lessons-description-header, .lessons-description-blocks {
+    width: 940px;
+    margin-left: 50px;
+    margin-top: 30px;
+   /* background-color: green;*/
+    color: #fcfbf6;
+    
+
+}
+
+.lessons-description-header h1{
+    height: 50px;
+    margin: 25px 25px;
+    
+    padding: 10px;
+    text-align: center;
+    background-color: #97243f;
+    border-color: #97243f;
+    border-radius: 15%;
+    
+}
+
+.lessons-description-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    
+}
+
+.blocks {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 425px;
+    height: 250px;
+    background-color: #97243f;
+    border-color: #97243f;
+    border-radius: 25%;
+}
+
+.lessons-text{
+    padding: 20px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.number-pictures{
+    float: left;
+    margin-right: 20px;
+}
+
+
+.teachers{
+    background-color: #573c35;
+    display: flex;
+    flex-direction: column;
+}
+
+.teachers-header, .teachers-introduction {
+    width: 940px;
+    margin-left: 50px;
+    margin-top: 30px;
+    /*background-color: green;*/
+    color: #fcfbf6;
+}
+
+
+.teachers-header h1{
+
+    height: 50px;
+    margin: 25px 25px;
+    
+    padding: 10px;
+    text-align: center;
+    color: #573c35;
+    background-color: #fcfbf6;
+    border-color: #fcfbf6;
+    border-radius: 15%;
+
+}
+
+.teachers-introduction{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.teachers-photos {
+    width: 280px;
+    border: 1px solid #cfceca;
+    border-radius: 15%;
+
+    padding: 10px 10px;
+
+    /*color: #573c35;*/
+    color: #cfceca;
+
+    font-size: large;
+    /*font-weight: bold;*/
+}
+
+img.sensei{
+    float: left;
+    margin-right: 5px;
+    width: 150px;
+    height: 225px;
+}
+
+.name-header{
+
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+
+
+
+.sidebar-left, .sidebar-right{
+
+width: 232px;
+height: 2106px;
+
+background-color: #e7ceb4;
+position: relative;
+}
+
+.umeflower{
+    position: absolute;
+    left: 50px;
+    width: 125px;
+    height: 2106px;
+    
+    background-image: url(img/icons8-flower-64.png);
+}
+
+.trial-lesson {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #97243f;
+    height: 500px;
+}
+
+
+/*.trial-lesson div {
+   /* border: 1px solid black;
+}*/
+
+
+.left-column, .right-column{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    margin-right: 10px;
+}
+
+
+.trial-lesson-form{
+width: 350px;
+display: flex;
+flex-direction: column;
+}
+
+.trial-lesson-form div{
+    position: relative;
+    padding: 15px 15px;
+   border: none;
+}
+
+
+input{
+    position: absolute;
+    right: 20px;
+    width: 250px;
+    color: #573c35;
+}
+
+.attractions {
+
+margin-top: 75px;
+
+}
+
+.attractions li{
+    margin-top: 55px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+/*FOOTER*/
+
+.footer{
+    width: 1500x;
+    height: 200px;
+    margin: o o;
+    
+    background-color: #74554d;
+    color: aliceblue;
+    
+    border: 1px solid violet;
+    
+    display: flex;
+    }
+
+    .footer-logo{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .footer-menu{
+        margin-top: 25px;
+        margin-left: 100px;
+        display:flex; 
+        justify-content: space-around;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(240, 244, 247);
+        
+    }
+
+    .footer-menu ul {
+        margin-right: 75px;
+        list-style-type: none;
+    }
